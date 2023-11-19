@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6,p{
     overflow: hidden;
 }
 .container{
-    width: 1188px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -66,8 +66,10 @@ h1,h2,h3,h4,h5,h6,p{
 .main-nav{
     display: flex;
     align-items: center;
+    
 }
-.menu{display: flex;
+.menu{
+    display: flex;
     column-gap: 40px;
 }
 .list-contacts{
@@ -255,7 +257,6 @@ color: #434455;
 }
 .logo{
     display: block;
-    margin: 0 0 17.5px 0;
 }
 .lower-nav-text{
     width: 264px;
