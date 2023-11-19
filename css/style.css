@@ -156,8 +156,11 @@ letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
 }
+.list-item{
+    width: calc((100% - 72px) / 4);
+}
 .title-two{
-    color: #F4F4FD;
+    margin-bottom: 8px;
 }
 .services{
     color: #2E2F42;
