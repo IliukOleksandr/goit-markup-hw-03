@@ -40,19 +40,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 0;
     margin-bottom: 0;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 .container{
     width: 1158px;
     margin-left: auto;
@@ -159,10 +147,22 @@ letter-spacing: 0.02em;
 .list-item{
     width: calc((100% - 72px) / 4);
 }
-.title-two{
-    margin-bottom: 8px;
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .services{
+    margin-bottom: 8px;
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
