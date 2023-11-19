@@ -157,7 +157,6 @@ letter-spacing: 0.02em;
     gap: 24px;
 }
 .title-two{
-    margin-bottom: 8px;
     color: #F4F4FD;
 }
 .services{
@@ -197,10 +196,15 @@ letter-spacing: 0.02em;
 }
 .team-list-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+.worker-box{
+    padding: 32px 0;
+    text-align: center;
 }
 .worker{
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
