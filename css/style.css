@@ -71,11 +71,11 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .list-contacts{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .top-header{
     border-bottom: 1px solid #E7E9FC;
@@ -154,7 +154,7 @@ letter-spacing: 0.02em;
 }
 .list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .title-two{
     color: #F4F4FD;
@@ -180,7 +180,7 @@ letter-spacing: 0.02em;
 }
 .team-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .title-three{
     margin-left: auto;
@@ -222,7 +222,7 @@ letter-spacing: 0.02em;
 .list-portfolio{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .title-four{
