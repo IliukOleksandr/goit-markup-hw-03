@@ -13,6 +13,7 @@ body{
     margin-right: auto;
     border: 4px;
     border-radius: 4px;
+    min-width: 169px;
         padding: 16px 32px;
         cursor: pointer;
         background: #4D5AE5;
@@ -131,13 +132,14 @@ padding-bottom: 24px;
 .section-one{
     background-color: #2E2F42;
     padding-bottom: 188px;
+    padding-top: 188px;
 }
 .title-one{
     padding-top: 188px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     color: #FFF;
     text-align: center;
 font-size: 56px;
