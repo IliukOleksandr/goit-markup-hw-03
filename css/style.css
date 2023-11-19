@@ -157,6 +157,7 @@ letter-spacing: 0.02em;
     gap: 24px;
 }
 .title-two{
+    margin-bottom: 8px;
     color: #F4F4FD;
 }
 .services{
@@ -253,12 +254,16 @@ color: #434455;
     letter-spacing: 0.02em;
 }
 .lower-nav{
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
     background-color: #2E2F42;
 }
 .logo{
     display: block;
+}
+.lower-logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .lower-nav-text{
     width: 264px;
